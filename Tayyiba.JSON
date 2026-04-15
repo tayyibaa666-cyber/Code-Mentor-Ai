@@ -1,0 +1,896 @@
+[
+    {
+        "instruction": "Write Python code to print Hello World.",
+        "input": "",
+        "output": "print('Hello World')\n\n**Explanation:** This code uses the `print()` function, which is a built-in Python command to display text on the screen. Any text placed inside the parentheses and single quotes is treated as a string (a sequence of characters) and shown as output.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Explain this code:\na = 5\nb = 3\nprint(a + b)",
+        "input": "",
+        "output": "This code first creates a variable named `a` and stores the number 5 in it. It then creates another variable `b` and stores the number 3. Finally, it adds the values of `a` and `b` together (5 + 3) and uses the `print()` function to display the result, which is 8.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Create a variable to store your age and print it.",
+        "input": "",
+        "output": "my_age = 25\nprint(my_age)\n\n**Explanation:** A variable is like a labeled box where you can store information. Here, we create a variable named `my_age`, assign it the numerical value 25 using the equals sign `=`, and then print the value stored in that variable.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Write code that subtracts the number 10 from 25 and prints the result.",
+        "input": "",
+        "output": "result = 25 - 10\nprint(result)\n\n**Explanation:** This code performs a subtraction operation. The result of `25 - 10` is calculated first (which is 15) and then stored in a new variable called `result`. The `print()` function then displays the value of `result`.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you multiply 8 by 7 in Python?",
+        "input": "",
+        "output": "product = 8 * 7\nprint(product)\n\n**Explanation:** In Python, the asterisk `*` symbol is used for multiplication. This code calculates `8 * 7`, stores the answer (56) in the `product` variable, and then prints it.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you divide 100 by 5 in Python?",
+        "input": "",
+        "output": "quotient = 100 / 5\nprint(quotient)\n\n**Explanation:** The forward slash `/` is the division operator in Python. This code divides 100 by 5. The result, 20.0, is stored in the `quotient` variable and then displayed. Note that division in Python often results in a decimal number (a float).",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Create a variable to hold a person's name and print a greeting.",
+        "input": "",
+        "output": "name = 'Alice'\nprint('Hello, ' + name)\n\n**Explanation:** This shows how to work with text (strings). We store the name 'Alice' in a variable. Then, we use the `+` operator to combine the string 'Hello, ' with the value of the `name` variable to create a full greeting.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Write a program that asks the user for their name and then says hello to them.",
+        "input": "",
+        "output": "user_name = input('What is your name? ')\nprint('Hello, ' + user_name)\n\n**Explanation:** The `input()` function displays a message to the user ('What is your name? ') and waits for them to type something and press Enter. The text the user enters is then stored in the `user_name` variable, which is used to print a personalized greeting.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you write a comment in Python?",
+        "input": "",
+        "output": "# This is a single-line comment.\nprint('This line will run.')\n\n**Explanation:** A comment is a note for humans that the computer ignores. In Python, you can write a comment by starting the line with a hash symbol `#`. Anything after the `#` on that line will not be executed as code.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Create a list of three different colors.",
+        "input": "",
+        "output": "colors = ['red', 'green', 'blue']\nprint(colors)\n\n**Explanation:** A list is a way to store multiple items in a single variable. You create a list by putting items inside square brackets `[]`, separated by commas. This code creates a list named `colors` and then prints the entire list.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Given the list `numbers = [10, 20, 30]`, how do you access the first element?",
+        "input": "",
+        "output": "numbers = [10, 20, 30]\nfirst_element = numbers[0]\nprint(first_element)\n\n**Explanation:** In Python, list items are indexed starting from 0. To get the first item, you use the list's name followed by `[0]`. So, `numbers[0]` gives you the first item, which is 10.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you access the last element of the list `letters = ['a', 'b', 'c']`?",
+        "input": "",
+        "output": "letters = ['a', 'b', 'c']\nlast_element = letters[-1]\nprint(last_element)\n\n**Explanation:** A handy trick in Python is to use negative indexing to count from the end of the list. `[-1]` refers to the last element, `[-2]` to the second to last, and so on. This code prints 'c'.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How can I add an item to the end of a list?",
+        "input": "",
+        "output": "fruits = ['apple', 'banana']\nfruits.append('cherry')\nprint(fruits)\n\n**Explanation:** You can add an item to the end of an existing list using the `.append()` method. A method is a function that belongs to an object (in this case, the list). This code will print `['apple', 'banana', 'cherry']`.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Write a `for` loop to print numbers from 1 to 3.",
+        "input": "",
+        "output": "for number in range(1, 4):\n  print(number)\n\n**Explanation:** A `for` loop is used to repeat a block of code. `range(1, 4)` generates numbers starting from 1 up to (but not including) 4. The loop runs for each number (1, 2, 3), and in each run, the `print(number)` command is executed.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you find the length of a string?",
+        "input": "",
+        "output": "message = 'Hello'\nlength = len(message)\nprint(length)\n\n**Explanation:** The built-in `len()` function can be used to find the number of items in something. When used on a string, it counts the number of characters. 'Hello' has 5 characters, so this code will print 5.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you find the number of items in a list?",
+        "input": "",
+        "output": "my_list = [1, 2, 3, 4]\nlist_length = len(my_list)\nprint(list_length)\n\n**Explanation:** The `len()` function also works for lists. It counts how many items are in the list. This list has 4 items, so the code will print 4.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Convert the string '123' to an integer.",
+        "input": "",
+        "output": "string_number = '123'\ninteger_number = int(string_number)\nprint(integer_number)\n\n**Explanation:** Sometimes numbers are stored as text (strings). To perform math on them, you must convert them to a number type first. The `int()` function takes a string and converts it into an integer (a whole number).",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Convert the number 50 to a string.",
+        "input": "",
+        "output": "number = 50\nstring_number = str(number)\nprint('The number is ' + string_number)\n\n**Explanation:** To combine a number with text in a `print` statement using `+`, you must first convert the number to a string. The `str()` function converts a number into its text equivalent.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Write an `if` statement that prints 'Too high' if a variable `x` is greater than 10.",
+        "input": "",
+        "output": "x = 15\nif x > 10:\n  print('Too high')\n\n**Explanation:** An `if` statement checks if a condition is true. Here, the condition is `x > 10`. Since `x` is 15, the condition is true, so the indented code `print('Too high')` is executed.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Explain what this code does:\n\n`age = 20`\n`if age >= 18:`\n  `print('Adult')`\n`else:`\n  `print('Minor')`",
+        "input": "",
+        "output": "This code checks a person's age. The `if` statement checks if the `age` (which is 20) is greater than or equal to 18. Since 20 is greater than 18, the condition is true, and the code prints 'Adult'. If the age were less than 18, the `else` part would run, printing 'Minor'.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you check if two values are equal?",
+        "input": "",
+        "output": "a = 7\nb = 7\nif a == b:\n  print('They are equal')\n\n**Explanation:** To check for equality, you must use a double equals sign `==`. A single equals sign `=` is used for assigning a value to a variable. This code compares `a` and `b`, finds they are equal, and prints the message.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Create a `for` loop that prints each fruit from a list on a new line.",
+        "input": "",
+        "output": "fruits = ['apple', 'banana', 'cherry']\nfor fruit in fruits:\n  print(fruit)\n\n**Explanation:** This `for` loop iterates through the `fruits` list. In the first run, the variable `fruit` becomes 'apple' and is printed. In the second run, `fruit` becomes 'banana' and is printed, and so on, until all items in the list have been processed.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "What is the difference between an integer and a float?",
+        "input": "",
+        "output": "integer_example = 10\nfloat_example = 10.5\n\n**Explanation:** An **integer** (or `int`) is a whole number, without any decimal points. A **float** is a number that has a decimal point. Integers are used for counting things, while floats are used for more precise measurements.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you get the uppercase version of a string?",
+        "input": "",
+        "output": "my_string = 'hello world'\nuppercase_string = my_string.upper()\nprint(uppercase_string)\n\n**Explanation:** Strings have built-in methods to change them. The `.upper()` method returns a new string where all the characters are converted to uppercase. This will print 'HELLO WORLD'.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you get the lowercase version of a string?",
+        "input": "",
+        "output": "my_string = 'HELLO WORLD'\nlowercase_string = my_string.lower()\nprint(lowercase_string)\n\n**Explanation:** Similar to `.upper()`, the `.lower()` method returns a new string where all characters have been converted to lowercase. This will print 'hello world'.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Write a program that asks for two numbers and prints their sum.",
+        "input": "",
+        "output": "num1_str = input('Enter first number: ')\nnum2_str = input('Enter second number: ')\n\nnum1 = int(num1_str)\nnum2 = int(num2_str)\n\nresult = num1 + num2\nprint('The sum is:', result)\n\n**Explanation:** The `input()` function always returns text (a string). To do math, we must first convert the input strings to integers using `int()`. After converting, we can add them and print the result.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "What is a boolean?",
+        "input": "",
+        "output": "is_raining = True\nis_sunny = False\n\n**Explanation:** A boolean is a data type that can only have one of two values: `True` or `False`. Booleans are very important for decision-making in code, such as in `if` statements. Note that `True` and `False` must be capitalized.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Check if the number 5 is in the list `[1, 2, 3, 4]`.",
+        "input": "",
+        "output": "my_list = [1, 2, 3, 4]\nif 5 in my_list:\n  print('Yes, 5 is in the list.')\nelse:\n  print('No, 5 is not in the list.')\n\n**Explanation:** The `in` keyword is a simple way to check for membership. It returns `True` if the item is found in the list and `False` otherwise. In this case, it will print 'No, 5 is not in the list.'",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How can you combine two lists?",
+        "input": "",
+        "output": "list1 = [1, 2, 3]\nlist2 = ['a', 'b', 'c']\ncombined_list = list1 + list2\nprint(combined_list)\n\n**Explanation:** You can use the `+` operator to concatenate (join) two lists together. This creates a new list containing all the items from the first list, followed by all the items from the second list.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do I create an empty list?",
+        "input": "",
+        "output": "empty_list = []\nprint(empty_list)\n\n**Explanation:** To create a list that has no items in it yet, you just use a pair of empty square brackets `[]`. You can then add items to this list later in your code using methods like `.append()`.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you find the remainder of a division?",
+        "input": "",
+        "output": "remainder = 10 % 3\nprint(remainder)\n\n**Explanation:** The percent sign `%` is the modulo operator. It gives you the remainder after a division. 10 divided by 3 is 3 with a remainder of 1. So, this code will print 1.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Write a `while` loop that counts from 1 to 5.",
+        "input": "",
+        "output": "count = 1\nwhile count <= 5:\n  print(count)\n  count = count + 1\n\n**Explanation:** A `while` loop repeats as long as its condition is true. Here, the loop continues as long as `count` is less than or equal to 5. Inside the loop, we print the current count and then increase it by 1. Without `count = count + 1`, the loop would run forever.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you check if a value is NOT equal to another?",
+        "input": "",
+        "output": "a = 5\nb = 10\nif a != b:\n  print('They are not equal')\n\n**Explanation:** The `!=` operator means 'not equal to'. It is the opposite of the `==` operator. This `if` statement checks if `a` and `b` have different values. Since 5 and 10 are different, the message is printed.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Define a simple function that prints a greeting.",
+        "input": "",
+        "output": "def say_hello():\n  print('Hello there!')\n\nsay_hello()\n\n**Explanation:** A function is a reusable block of code. We define a function using `def`, followed by the function name and parentheses `()`. The code inside the function only runs when you 'call' it by typing its name with parentheses, like `say_hello()`.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Create a dictionary to store a user's information (name, age).",
+        "input": "",
+        "output": "user = {\n  'name': 'John Doe',\n  'age': 30\n}\nprint(user)\n\n**Explanation:** A dictionary stores data in `key: value` pairs. Here, 'name' is a key and 'John Doe' is its value. You create dictionaries with curly braces `{}`. They are useful for storing related pieces of information.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "From the dictionary `person = {'name': 'Jane', 'city': 'New York'}`, how do you get the value for 'city'?",
+        "input": "",
+        "output": "person = {'name': 'Jane', 'city': 'New York'}\ncity = person['city']\nprint(city)\n\n**Explanation:** You can access values in a dictionary by putting the key inside square brackets `[]`. This is similar to accessing list items by their index, but you use the key's name instead of a number.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Write an `if-elif-else` statement to check if a number is positive, negative, or zero.",
+        "input": "",
+        "output": "number = -5\nif number > 0:\n  print('Positive')\nelif number < 0:\n  print('Negative')\nelse:\n  print('Zero')\n\n**Explanation:** This structure checks multiple conditions. First, it checks if `number > 0`. If not, it moves to the `elif` (else if) and checks if `number < 0`. If that's also false, the final `else` block is executed. This is useful for choosing between more than two options.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you remove an item from a list by its value?",
+        "input": "",
+        "output": "letters = ['a', 'b', 'c', 'd']\nletters.remove('c')\nprint(letters)\n\n**Explanation:** The `.remove()` method searches for the first occurrence of the specified value and removes it from the list. After this code runs, the list will be `['a', 'b', 'd']`.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Create a function that takes one argument (a name) and prints a custom greeting.",
+        "input": "",
+        "output": "def greet(name):\n  print('Hello, ' + name + '!')\n\ngreet('Alice')\ngreet('Bob')\n\n**Explanation:** You can pass information to functions through arguments (also called parameters). Here, `name` is an argument. When we call `greet('Alice')`, the `name` variable inside the function holds the value 'Alice'. This makes the function flexible.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you use the `and` operator in an `if` statement?",
+        "input": "",
+        "output": "age = 25\nhas_license = True\nif age >= 18 and has_license == True:\n  print('You can drive.')\n\n**Explanation:** The `and` operator checks if multiple conditions are all true at the same time. The message 'You can drive.' will only be printed if the person's age is 18 or over AND they have a license.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you use the `or` operator in an `if` statement?",
+        "input": "",
+        "output": "day = 'Saturday'\nif day == 'Saturday' or day == 'Sunday':\n  print('It is the weekend!')\n\n**Explanation:** The `or` operator checks if at least one of many conditions is true. The message will be printed if the `day` variable is 'Saturday' OR if it is 'Sunday'.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you calculate a number to the power of another?",
+        "input": "",
+        "output": "result = 2 ** 3\nprint(result)\n\n**Explanation:** The double asterisk `**` is the exponentiation operator. It raises the number on the left to the power of the number on the right. `2 ** 3` means 2 * 2 * 2, which is 8.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "What is an f-string and how do you use it?",
+        "input": "",
+        "output": "name = 'David'\nage = 40\nprint(f'My name is {name} and I am {age} years old.')\n\n**Explanation:** An f-string (formatted string literal) is a modern and easy way to include variables directly inside a string. You start the string with the letter `f` and then place your variables inside curly braces `{}`. It's often cleaner than using `+` to combine strings and variables.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Change the second item in this list to 'orange': `fruits = ['apple', 'banana', 'cherry']`",
+        "input": "",
+        "output": "fruits = ['apple', 'banana', 'cherry']\nfruits[1] = 'orange'\nprint(fruits)\n\n**Explanation:** Lists are mutable, which means you can change them after they are created. You can replace an item by accessing it via its index (remembering that the second item is at index 1) and assigning a new value to it.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you get a part of a string (a slice)?",
+        "input": "",
+        "output": "message = 'Hello, Python!'\npython_part = message[7:13]\nprint(python_part)\n\n**Explanation:** You can extract a substring by using slicing, with the format `[start:end]`. The `start` index is inclusive and the `end` index is exclusive. `message[7:13]` starts at index 7 ('P') and goes up to, but does not include, index 13. This prints 'Python'.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do you add a key-value pair to an existing dictionary?",
+        "input": "",
+        "output": "user_info = {'name': 'Emily'}\nuser_info['city'] = 'London'\nprint(user_info)\n\n**Explanation:** To add a new entry to a dictionary, you can specify a new key in square brackets and assign a value to it. This code adds the key 'city' with the value 'London' to the `user_info` dictionary.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Write a function that takes a number and returns that number multiplied by two.",
+        "input": "",
+        "output": "def double(number):\n  return number * 2\n\nresult = double(7)\nprint(result)\n\n**Explanation:** The `return` keyword in a function sends a value back to where the function was called. Here, the `double` function calculates `number * 2` and returns the result. We store that returned value in the `result` variable and print it.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How can you check the data type of a variable?",
+        "input": "",
+        "output": "x = 10\ny = 'hello'\nz = [1, 2]\nprint(type(x))\nprint(type(y))\nprint(type(z))\n\n**Explanation:** The built-in `type()` function tells you what kind of data a variable is holding. This is useful for debugging. It will print `<class 'int'>` for the integer, `<class 'str'>` for the string, and `<class 'list'>` for the list.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "How do I loop 5 times without needing a counter variable?",
+        "input": "",
+        "output": "for _ in range(5):\n  print('Looping!')\n\n**Explanation:** When you need to repeat an action a specific number of times but don't care about the count in each iteration, you can use an underscore `_` as the variable name. This is a common Python convention to indicate that the loop variable is intentionally not being used.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Create a tuple with three items.",
+        "input": "",
+        "output": "my_tuple = (1, 'hello', True)\nprint(my_tuple)\n\n**Explanation:** A tuple is similar to a list, but it is created with parentheses `()` instead of square brackets. The key difference is that tuples are **immutable**, meaning you cannot change, add, or remove items after the tuple is created.",
+        "skill": "Beginner"
+    },
+    {
+        "instruction": "Write a function that takes two numbers as arguments and returns their sum.",
+        "input": "",
+        "output": "def add_numbers(a, b):\n  return a + b\n\n# Example usage:\nresult = add_numbers(5, 7)\nprint(result)  # Output: 12\n\n**Explanation:** This defines a function `add_numbers` that accepts two parameters, `a` and `b`. The `return` keyword sends the result of their addition back, which can then be stored in a variable.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Explain how to loop through a dictionary and print its keys and values.",
+        "input": "",
+        "output": "user_data = {'name': 'Alice', 'age': 30}\n\nfor key, value in user_data.items():\n  print(f'Key: {key}, Value: {value}')\n\n**Explanation:** The `.items()` method on a dictionary returns key-value pairs. The `for` loop uses tuple unpacking to assign the key and value to separate variables (`key`, `value`) in each iteration, making it easy to access both.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Create a list of numbers from 1 to 10 using a list comprehension.",
+        "input": "",
+        "output": "numbers = [i for i in range(1, 11)]\nprint(numbers)\n\n**Explanation:** A list comprehension is a concise way to create lists. This single line of code is equivalent to a full `for` loop: it iterates through `range(1, 11)` and adds each number `i` to the new list `numbers`.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a function that checks if a number is even or odd.",
+        "input": "",
+        "output": "def is_even(number):\n  if number % 2 == 0:\n    return True\n  else:\n    return False\n\n# Example usage:\nprint(is_even(10)) # Output: True\nprint(is_even(7))  # Output: False\n\n**Explanation:** This function uses the modulo operator (`%`) to find the remainder of a division by 2. If the remainder is 0, the number is even and the function returns `True`. Otherwise, it's odd and returns `False`.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you read all the lines from a text file named 'data.txt'?",
+        "input": "",
+        "output": "try:\n  with open('data.txt', 'r') as file:\n    content = file.read()\n    print(content)\nexcept FileNotFoundError:\n  print('The file data.txt was not found.')\n\n**Explanation:** The `with open(...)` syntax is the recommended way to handle files, as it automatically closes the file afterward. 'r' stands for read mode. We wrap it in a `try...except` block to gracefully handle the case where the file doesn't exist.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a function that takes a list of numbers and returns the largest number in the list.",
+        "input": "",
+        "output": "def find_max(numbers):\n  if not numbers:\n    return None # Return None if the list is empty\n  return max(numbers)\n\n# Example usage:\nmy_list = [1, 5, 2, 9, 3]\nprint(find_max(my_list)) # Output: 9\n\n**Explanation:** The built-in `max()` function is the most efficient way to find the largest item in a list. The function first checks if the list is empty to avoid errors.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "What is the difference between a list and a tuple?",
+        "input": "",
+        "output": "my_list = [1, 2, 3] # Mutable\nmy_tuple = (1, 2, 3) # Immutable\n\nmy_list[0] = 99 # This is valid\n# my_tuple[0] = 99 # This would cause a TypeError\n\n**Explanation:** The primary difference is mutability. Lists are **mutable**, meaning their elements can be changed after creation. Tuples are **immutable**, meaning once they are created, their contents cannot be altered. Tuples are generally faster and safer for data that should not change.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you remove duplicates from a list?",
+        "input": "",
+        "output": "numbers = [1, 2, 2, 3, 4, 4, 5]\nunique_numbers = list(set(numbers))\nprint(unique_numbers)\n\n**Explanation:** A `set` is a data structure that only stores unique elements. By converting the list to a set, duplicates are automatically removed. We then convert it back to a list to get the final result.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a program to find all numbers between 1 and 100 that are divisible by 7.",
+        "input": "",
+        "output": "divisible_by_seven = [num for num in range(1, 101) if num % 7 == 0]\nprint(divisible_by_seven)\n\n**Explanation:** This list comprehension iterates through numbers from 1 to 100. The `if num % 7 == 0` part acts as a filter, only including numbers in the final list if they are perfectly divisible by 7.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "What does the `.get()` method do for dictionaries?",
+        "input": "",
+        "output": "data = {'name': 'Bob', 'age': 42}\n\n# Using standard key access (can cause an error)\n# print(data['city']) # This would raise a KeyError\n\n# Using .get()\ncity = data.get('city', 'Unknown')\nprint(f'City: {city}') # Output: City: Unknown\n\n**Explanation:** The `.get()` method provides a safe way to access a dictionary key. If the key exists, it returns the value. If the key does not exist, it returns a default value (the second argument, which is `None` if not provided) instead of raising a `KeyError`.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you join a list of strings into a single string?",
+        "input": "",
+        "output": "words = ['Hello', 'World', 'Python']\nsentence = ' '.join(words)\nprint(sentence)\n\n**Explanation:** The `.join()` method is called on the separator string (in this case, a space `' '`). It takes an iterable (like a list) of strings and concatenates them, with the separator placed between each element.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you split a string into a list of words?",
+        "input": "",
+        "output": "sentence = 'This is a sample sentence.'\nwords = sentence.split(' ')\nprint(words)\n\n**Explanation:** The `.split()` string method breaks a string into a list. The argument specifies the delimiter to split by. Here, we split by the space character. If no argument is given, it splits by any whitespace.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Create a function with default argument values.",
+        "input": "",
+        "output": "def greet(name, greeting='Hello'):\n  print(f'{greeting}, {name}!')\n\ngreet('Alice') # Uses the default greeting\ngreet('Bob', 'Good morning') # Overrides the default\n\n**Explanation:** You can assign a default value to a parameter in the function definition. If a value for that parameter is not provided when the function is called, the default value is used automatically.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a basic `try...except` block to handle a `ValueError`.",
+        "input": "",
+        "output": "try:\n  user_input = input('Enter a number: ')\n  number = int(user_input)\n  print(f'You entered the number {number}')\nexcept ValueError:\n  print('Invalid input. Please enter a valid integer.')\n\n**Explanation:** The code inside the `try` block is executed. If a `ValueError` occurs (e.g., if the user types 'abc' and `int()` fails), the code in the `try` block stops and the code in the `except ValueError` block is executed.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you get a slice of a list?",
+        "input": "",
+        "output": "numbers = [0, 10, 20, 30, 40, 50]\n# Get elements from index 2 up to (but not including) index 5\nsubset = numbers[2:5]\nprint(subset) # Output: [20, 30, 40]\n\n**Explanation:** Slicing uses the syntax `[start:stop:step]`. `start` is the index of the first element to include, and `stop` is the index of the first element to exclude. If `start` or `stop` are omitted, they default to the beginning or end of the list.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a function that accepts an arbitrary number of arguments.",
+        "input": "",
+        "output": "def sum_all(*args):\n  total = 0\n  for num in args:\n    total += num\n  return total\n\nprint(sum_all(1, 2, 3)) # Output: 6\nprint(sum_all(10, 20, 30, 40)) # Output: 100\n\n**Explanation:** The `*args` syntax in a function definition allows it to accept any number of positional arguments. These arguments are collected into a tuple named `args`, which you can then iterate over.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Explain tuple unpacking.",
+        "input": "",
+        "output": "coordinates = (10, 20, 30)\nx, y, z = coordinates\n\nprint(f'x: {x}, y: {y}, z: {z}')\n\n**Explanation:** Tuple unpacking is an elegant way to assign the elements of a tuple (or list) to multiple variables in a single line. The number of variables on the left must match the number of elements in the tuple.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a nested loop to print a 3x3 grid of asterisks.",
+        "input": "",
+        "output": "for i in range(3):\n  for j in range(3):\n    print('*', end=' ')\n  print() # Move to the next line after each row\n\n**Explanation:** The outer loop controls the rows, and the inner loop controls the columns. The `end=' '` in the `print` function prevents it from creating a new line, printing the asterisks side-by-side. The empty `print()` at the end of the outer loop creates the new line for the next row.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you use the `random` module to get a random integer?",
+        "input": "",
+        "output": "import random\n\nrandom_number = random.randint(1, 10)\nprint(f'A random number between 1 and 10 is {random_number}')\n\n**Explanation:** First, you must `import` the `random` module to use its functions. Then, `random.randint(a, b)` returns a random integer `N` such that `a <= N <= b`. Both endpoints are inclusive.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "What is a lambda function? Provide an example.",
+        "input": "",
+        "output": "# Standard function\ndef double(x):\n  return x * 2\n\n# Lambda function\ndouble_lambda = lambda x: x * 2\n\nprint(double_lambda(5)) # Output: 10\n\n**Explanation:** A lambda function is a small, anonymous function defined with the `lambda` keyword. It can take any number of arguments but can only have one expression. They are often used for short, simple operations where a full `def` function is unnecessary.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a function to reverse a string.",
+        "input": "",
+        "output": "def reverse_string(s):\n  return s[::-1]\n\n# Example usage:\nprint(reverse_string('python')) # Output: 'nohtyp'\n\n**Explanation:** This uses a common slicing trick. The slice `[::-1]` has no defined start or stop, so it includes the whole string, but the step of -1 reverses the order of the elements.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you write content to a file?",
+        "input": "",
+        "output": "with open('output.txt', 'w') as file:\n  file.write('Hello, file!\\n')\n  file.write('This is a new line.')\n\n**Explanation:** To write to a file, you open it in write mode (`'w'`). This will create the file if it doesn't exist or overwrite it if it does. The `.write()` method writes a string to the file. `\\n` is the newline character.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Create a dictionary from two lists.",
+        "input": "",
+        "output": "keys = ['name', 'age', 'city']\nvalues = ['Alice', 30, 'New York']\nmy_dict = dict(zip(keys, values))\nprint(my_dict)\n\n**Explanation:** The `zip()` function pairs up elements from multiple iterables. `dict()` can then convert these pairs into a dictionary. `zip()` stops when the shortest iterable is exhausted.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Explain the `break` and `continue` keywords in a loop.",
+        "input": "",
+        "output": "for i in range(1, 11):\n  if i == 3:\n    continue # Skip the rest of this iteration\n  if i == 8:\n    break # Exit the loop entirely\n  print(i)\n\n# Output: 1 2 4 5 6 7\n\n**Explanation:** `continue` immediately stops the current iteration and jumps to the next one (it skipped printing 3). `break` immediately terminates the loop entirely (the loop stopped when `i` was 8 and never reached 9 or 10).",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a function that finds common elements between two lists.",
+        "input": "",
+        "output": "def find_common(list1, list2):\n  return list(set(list1) & set(list2))\n\n# Example usage:\nprint(find_common([1, 2, 3, 4], [3, 4, 5, 6])) # Output: [3, 4]\n\n**Explanation:** This is an efficient method using sets. We convert both lists to sets. The `&` operator performs a set intersection, which finds all elements that are present in both sets. Finally, we convert the result back to a list.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How can you check if all elements in a list are True?",
+        "input": "",
+        "output": "list1 = [True, True, 1]\nlist2 = [True, False, True]\n\nprint(all(list1)) # Output: True\nprint(all(list2)) # Output: False\n\n**Explanation:** The built-in `all()` function returns `True` if all elements in an iterable are truthy (evaluate to True). In Python, non-zero numbers are truthy. It returns `False` if any element is falsy (like `False`, 0, or an empty string).",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How can you check if at least one element in a list is True?",
+        "input": "",
+        "output": "list1 = [False, False, 0]\nlist2 = [False, True, False]\n\nprint(any(list1)) # Output: False\nprint(any(list2)) # Output: True\n\n**Explanation:** The built-in `any()` function returns `True` if at least one element in an iterable is truthy. It only returns `False` if all elements are falsy.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a recursive function to calculate the factorial of a number.",
+        "input": "",
+        "output": "def factorial(n):\n  # Base case\n  if n == 0 or n == 1:\n    return 1\n  # Recursive case\n  else:\n    return n * factorial(n - 1)\n\nprint(factorial(5)) # Output: 120\n\n**Explanation:** Recursion is when a function calls itself. The `factorial` function has a **base case** (`n <= 1`) to stop the recursion. Otherwise, it performs its calculation and calls itself with a smaller value (`n-1`), until the base case is reached.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you sort a list of dictionaries by a specific key?",
+        "input": "",
+        "output": "people = [\n    {'name': 'Alice', 'age': 30},\n    {'name': 'Bob', 'age': 25},\n    {'name': 'Charlie', 'age': 35}\n]\n\npeople.sort(key=lambda person: person['age'])\nprint(people)\n\n**Explanation:** The `.sort()` method (and the `sorted()` function) can take a `key` argument. This argument should be a function that takes one element and returns a value to sort by. Here, a `lambda` function is used to tell `sort` to use the 'age' value from each dictionary for comparison.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Demonstrate how to use `**kwargs` in a function.",
+        "input": "",
+        "output": "def display_info(**kwargs):\n  for key, value in kwargs.items():\n    print(f'{key}: {value}')\n\ndisplay_info(name='John', age=45, city='Boston')\n\n**Explanation:** `**kwargs` allows a function to accept any number of keyword arguments (arguments passed with a name). These arguments are collected into a dictionary called `kwargs`. This is useful for functions that need to handle flexible or optional parameters.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a list comprehension to create a list of squares of even numbers from 0 to 9.",
+        "input": "",
+        "output": "squares_of_evens = [x**2 for x in range(10) if x % 2 == 0]\nprint(squares_of_evens)\n\n**Explanation:** This list comprehension combines iteration and filtering. It iterates through numbers 0-9, checks if `x % 2 == 0` (is it even?), and if so, it calculates `x**2` and adds it to the new list.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you count the occurrences of an item in a list?",
+        "input": "",
+        "output": "grades = ['A', 'B', 'A', 'C', 'A', 'B']\ncount_A = grades.count('A')\nprint(f'The grade A appears {count_A} times.') # Output: 3\n\n**Explanation:** The `.count()` list method is a straightforward way to find out how many times a specific value appears within the list.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you remove an item from a list by its index?",
+        "input": "",
+        "output": "letters = ['a', 'b', 'c', 'd']\nremoved_item = letters.pop(1) # Removes item at index 1\n\nprint(f'Removed item: {removed_item}') # Output: b\nprint(f'List after pop: {letters}') # Output: ['a', 'c', 'd']\n\n**Explanation:** The `.pop(index)` method removes the item at the given index and also returns it. If no index is specified, it removes and returns the last item.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How to create a set in Python?",
+        "input": "",
+        "output": "# From a list\nmy_set = set([1, 2, 3, 2, 1])\nprint(my_set) # Output: {1, 2, 3}\n\n# Using curly braces (note: {} creates an empty dict, not set)\nmy_set2 = {4, 5, 6}\nempty_set = set()\n\n**Explanation:** A set is an unordered collection of unique items. You can create one by passing an iterable to `set()` or by using curly braces `{}` for non-empty sets. Use `set()` to create an empty set.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How to check if a string contains only numeric characters?",
+        "input": "",
+        "output": "str1 = '12345'\nstr2 = '123a45'\n\nprint(str1.isnumeric()) # Output: True\nprint(str2.isnumeric()) # Output: False\n\n**Explanation:** The `.isnumeric()` string method returns `True` if all characters in the string are numeric characters, and `False` otherwise. It's a convenient way to validate user input.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Explain how to open a file for appending.",
+        "input": "",
+        "output": "with open('log.txt', 'a') as file:\n  file.write('New log entry.\\n')\n\n**Explanation:** Opening a file in append mode (`'a'`) moves the cursor to the end of the file. Any new content written with `.write()` will be added to the end, without overwriting the existing content. If the file doesn't exist, it will be created.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a function to check if a string is a palindrome.",
+        "input": "",
+        "output": "def is_palindrome(s):\n  # Clean the string: remove spaces and convert to lowercase\n  s_clean = s.replace(' ', '').lower()\n  return s_clean == s_clean[::-1]\n\nprint(is_palindrome('A man a plan a canal Panama')) # True\nprint(is_palindrome('hello')) # False\n\n**Explanation:** A palindrome reads the same forwards and backward. This function first cleans the string to handle cases with different capitalization and spaces. Then it simply checks if the cleaned string is equal to its reverse (obtained with the `[::-1]` slice).",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How to use `enumerate` in a for loop?",
+        "input": "",
+        "output": "fruits = ['apple', 'banana', 'cherry']\nfor index, fruit in enumerate(fruits):\n  print(f'Index {index}: {fruit}')\n\n**Explanation:** `enumerate` is a useful function that adds a counter to an iterable. In each loop iteration, it returns a tuple containing the index and the corresponding value, which can be conveniently unpacked into two variables.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you find the intersection of two sets?",
+        "input": "",
+        "output": "set1 = {1, 2, 3, 4}\nset2 = {3, 4, 5, 6}\n\nintersection = set1.intersection(set2)\n# Alternative using the & operator\n# intersection = set1 & set2\n\nprint(intersection) # Output: {3, 4}\n\n**Explanation:** The `.intersection()` method (or the `&` operator) returns a new set containing only the elements that are present in both `set1` and `set2`.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you find the union of two sets?",
+        "input": "",
+        "output": "set1 = {1, 2, 3, 4}\nset2 = {3, 4, 5, 6}\n\nunion = set1.union(set2)\n# Alternative using the | operator\n# union = set1 | set2\n\nprint(union) # Output: {1, 2, 3, 4, 5, 6}\n\n**Explanation:** The `.union()` method (or the `|` operator) returns a new set containing all elements from both sets. Duplicates are automatically handled.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you remove whitespace from the beginning and end of a string?",
+        "input": "",
+        "output": "text = '   some text with spaces   '\nstripped_text = text.strip()\nprint(f'\"{stripped_text}\"') # Output: \"some text with spaces\"\n\n**Explanation:** The `.strip()` string method returns a copy of the string with leading and trailing whitespace characters (spaces, tabs, newlines) removed. `.lstrip()` and `.rstrip()` can be used to remove from only the left or right side, respectively.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Create a multi-line string in Python.",
+        "input": "",
+        "output": "multi_line_string = \"\"\"\nThis is the first line.\nThis is the second line.\nAnd this is the third.\n\"\"\"\nprint(multi_line_string)\n\n**Explanation:** You can create multi-line strings by enclosing the text in triple quotes (either `\"\"\"` or `'''`). The newline characters within the string are preserved.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Write a function that returns multiple values.",
+        "input": "",
+        "output": "def get_user_info():\n  name = 'Alice'\n  age = 30\n  return name, age\n\nuser_name, user_age = get_user_info()\nprint(f'{user_name} is {user_age} years old.')\n\n**Explanation:** A Python function can return multiple values by separating them with a comma. The function actually returns a single tuple containing the values. This tuple can then be conveniently unpacked into multiple variables when the function is called.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you check if a key exists in a dictionary?",
+        "input": "",
+        "output": "data = {'name': 'Charlie', 'age': 50}\n\nif 'city' in data:\n  print('City key exists.')\nelse:\n  print('City key does not exist.')\n\n**Explanation:** The `in` keyword provides a clean and readable way to check for the existence of a key in a dictionary. It returns `True` if the key is found and `False` otherwise. This is generally preferred over using `.keys()`.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you copy a list correctly?",
+        "input": "",
+        "output": "original = [1, 2, 3]\n\n# Incorrect: this just creates another reference\n# bad_copy = original\n\n# Correct ways to create a shallow copy:\ncopy1 = original.copy()\ncopy2 = original[:]\n\ncopy1.append(4)\n\nprint(f'Original: {original}') # Output: [1, 2, 3]\nprint(f'Copy: {copy1}') # Output: [1, 2, 3, 4]\n\n**Explanation:** Simply assigning `b = a` for lists doesn't create a new list; it makes both variables point to the same list in memory. To create a true, independent (shallow) copy, you should use the `.copy()` method or a full slice `[:]`.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "What is the `pass` statement used for?",
+        "input": "",
+        "output": "def my_function():\n  pass # TODO: Implement this later\n\nclass MyClass:\n  pass\n\n**Explanation:** The `pass` statement is a null operation; nothing happens when it executes. It is used as a placeholder where syntax requires a statement, but no code needs to be executed. This is common for functions or classes that you plan to implement later.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How can you raise an exception manually?",
+        "input": "",
+        "output": "def set_age(age):\n  if age < 0:\n    raise ValueError('Age cannot be negative.')\n  print(f'Age set to {age}')\n\ntry:\n  set_age(-5)\nexcept ValueError as e:\n  print(f'Error: {e}')\n\n**Explanation:** The `raise` keyword is used to trigger an exception deliberately. This is useful when a function's input is invalid according to its logic. You can raise built-in exceptions like `ValueError` or define your own custom exceptions.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you format a number to a specific number of decimal places?",
+        "input": "",
+        "output": "price = 45.12645\n\nformatted_price = f'{price:.2f}'\nprint(formatted_price) # Output: 45.13\n\n**Explanation:** F-strings provide powerful formatting options. The syntax `:.2f` inside the curly braces tells Python to format the variable as a floating-point number (`f`) with exactly two digits after the decimal point (`.2`). It will automatically handle rounding.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "Explain the `*` operator for unpacking lists.",
+        "input": "",
+        "output": "numbers = [1, 2, 3, 4, 5]\nfirst, *middle, last = numbers\n\nprint(f'First: {first}')   # Output: 1\nprint(f'Middle: {middle}') # Output: [2, 3, 4]\nprint(f'Last: {last}')     # Output: 5\n\n**Explanation:** The `*` operator can be used in unpacking assignments to collect multiple items into a list. Here, it gathers all the items between the `first` and `last` into a new list called `middle`.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "How do you create a simple class in Python?",
+        "input": "",
+        "output": "class Dog:\n  # The initializer method\n  def __init__(self, name, breed):\n    self.name = name\n    self.breed = breed\n\n  # A method\n  def bark(self):\n    return 'Woof!'\n\n# Create an instance of the class\nmy_dog = Dog('Fido', 'Golden Retriever')\nprint(f'{my_dog.name} says {my_dog.bark()}')\n\n**Explanation:** A `class` is a blueprint for creating objects. The `__init__` method is a special method called a constructor, which runs when an object is created to initialize its attributes (like `self.name`). Methods like `bark` define the object's behavior.",
+        "skill": "Intermediate"
+    },
+    {
+        "instruction": "What is a decorator in Python? Provide a simple logging decorator.",
+        "input": "",
+        "output": "import functools\n\ndef log_function_call(func):\n    @functools.wraps(func)\n    def wrapper(*args, **kwargs):\n        print(f'Calling {func.__name__}...')\n        result = func(*args, **kwargs)\n        print(f'{func.__name__} returned {result}')\n        return result\n    return wrapper\n\n@log_function_call\ndef add(a, b):\n    return a + b\n\nadd(3, 5)\n\n**Explanation:** A decorator is a function that takes another function as an argument, adds some functionality, and returns another function, all without altering the source code of the original function. The `@log_function_call` syntax is syntactic sugar for `add = log_function_call(add)`. `functools.wraps` is used to preserve the original function's metadata.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Implement a generator function that yields the Fibonacci sequence.",
+        "input": "",
+        "output": "def fibonacci_generator():\n    a, b = 0, 1\n    while True:\n        yield a\n        a, b = b, a + b\n\n# Example usage:\nfib = fibonacci_generator()\nfor _ in range(10):\n    print(next(fib))\n\n**Explanation:** A generator is a special type of iterator, created using a function with the `yield` keyword. It pauses execution at `yield`, returning a value, and resumes from that point on the next call. This is memory-efficient for large sequences as it generates values on-the-fly rather than storing them all in memory.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Explain the Global Interpreter Lock (GIL) and its implications for Python's multithreading.",
+        "input": "",
+        "output": "**Explanation:** The Global Interpreter Lock (GIL) is a mutex (a mutual exclusion lock) that protects access to Python objects, preventing multiple native threads from executing Python bytecodes at the same time. This means that even on a multi-core processor, only one thread can be executing Python code at any given moment. The GIL simplifies memory management but is a performance bottleneck for CPU-bound multithreaded programs. For I/O-bound tasks, threading is still effective as the lock is released during I/O waits. For true parallelism on CPU-bound tasks, the `multiprocessing` module should be used.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Write a context manager using a class.",
+        "input": "",
+        "output": "class FileManager:\n    def __init__(self, filename, mode):\n        self.filename = filename\n        self.mode = mode\n        self.file = None\n\n    def __enter__(self):\n        self.file = open(self.filename, self.mode)\n        return self.file\n\n    def __exit__(self, exc_type, exc_value, traceback):\n        if self.file:\n            self.file.close()\n        # Return False to propagate exceptions, True to suppress them\n        return False\n\n# Usage:\nwith FileManager('test.txt', 'w') as f:\n    f.write('Hello, context manager!')\n\n**Explanation:** A context manager is an object that defines the methods `__enter__` and `__exit__`. The `__enter__` method sets up the resource (like opening a file) and is called at the start of the `with` block. The `__exit__` method handles cleanup (like closing the file) and is always called when the block is exited, even if an exception occurs.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Implement the Binary Search algorithm.",
+        "input": "",
+        "output": "def binary_search(arr, target):\n    left, right = 0, len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1 # Target not found\n\n# Prerequisite: The list must be sorted.\narr = [2, 5, 7, 8, 11, 12]\nprint(binary_search(arr, 11)) # Output: 4\n\n**Explanation:** Binary search is an efficient algorithm for finding an item from a **sorted** list. It works by repeatedly dividing the search interval in half. Its time complexity is O(log n), making it much faster than a linear search (O(n)) for large lists.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What are metaclasses in Python?",
+        "input": "",
+        "output": "**Explanation:** A metaclass is the 'class of a class'. Just as a class defines how an object behaves, a metaclass defines how a class behaves. By default, the metaclass for all Python classes is `type`. You can create your own metaclass by inheriting from `type` and overriding methods like `__new__` or `__init__`. Metaclasses are an advanced feature used for tasks like creating APIs, enforcing coding standards across many classes, or implementing frameworks (e.g., in ORMs like Django's).",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Explain `*args` and `**kwargs` and their order in a function definition.",
+        "input": "",
+        "output": "def example_function(pos1, pos2, *args, kw1, kw2, **kwargs):\n    print(f'Positional: {pos1}, {pos2}')\n    print(f'Arbitrary Positional (*args): {args}')\n    print(f'Keyword-only: {kw1}, {kw2}')\n    print(f'Arbitrary Keyword (**kwargs): {kwargs}')\n\n# Order: Standard args -> *args -> keyword-only args -> **kwargs\nexample_function(1, 2, 3, 4, kw1='a', kw2='b', extra='c')\n\n**Explanation:** The required order for function parameters is: standard positional arguments, `*args`, keyword-only arguments, and finally `**kwargs`. `*args` collects extra positional arguments into a tuple. `**kwargs` collects extra keyword arguments into a dictionary. Keyword-only arguments must be specified by name and cannot be filled positionally.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Implement a basic caching decorator using a dictionary.",
+        "input": "",
+        "output": "def cache(func):\n    _cache = {}\n    def wrapper(*args):\n        if args in _cache:\n            return _cache[args]\n        result = func(*args)\n        _cache[args] = result\n        return result\n    return wrapper\n\n@cache\ndef slow_fibonacci(n):\n    if n < 2:\n        return n\n    return slow_fibonacci(n-1) + slow_fibonacci(n-2)\n\n# The caching makes subsequent calls much faster.\nprint(slow_fibonacci(30))\n\n**Explanation:** This decorator, a form of memoization, stores the results of function calls in a dictionary (`_cache`). When the function is called again with the same arguments, the result is retrieved from the cache instead of re-computing, which dramatically improves performance for expensive, pure functions. Note: `functools.lru_cache` is the standard library's robust implementation of this concept.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What is the difference between shallow and deep copy?",
+        "input": "",
+        "output": "import copy\n\nlist_a = [1, 2, [3, 4]]\n\n# Shallow copy\nshallow_copy = copy.copy(list_a)\nshallow_copy[2][0] = 99\n\n# Deep copy\ndeep_copy = copy.deepcopy(list_a)\ndeep_copy[2][1] = 100\n\nprint(f'Original: {list_a}') # Output: [1, 2, [99, 100]]\n\n**Explanation:**\n- **Shallow Copy:** Creates a new object but inserts references to the objects found in the original. If the original list contains other mutable objects (like a nested list), the shallow copy will only copy the reference to that object. Modifying the nested object in the copy will also affect the original.\n- **Deep Copy:** Creates a new object and recursively copies all objects found in the original. It creates fully independent copies of all nested objects, so modifications to the copy will not affect the original.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Implement a Queue data structure using `collections.deque`.",
+        "input": "",
+        "output": "from collections import deque\n\nclass Queue:\n    def __init__(self):\n        self.items = deque()\n\n    def enqueue(self, item):\n        self.items.append(item)\n\n    def dequeue(self):\n        if not self.is_empty():\n            return self.items.popleft()\n        return None\n\n    def is_empty(self):\n        return len(self.items) == 0\n\n**Explanation:** `collections.deque` (double-ended queue) is the ideal data structure for implementing queues and stacks in Python. It is optimized for fast appends and pops from both ends. For a queue (First-In, First-Out), we `append` to the right and `popleft` from the left, both of which are O(1) operations.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What are slots (`__slots__`) in a Python class?",
+        "input": "",
+        "output": "class MyClass:\n    __slots__ = ['name', 'value']\n    def __init__(self, name, value):\n        self.name = name\n        self.value = value\n\n# instance = MyClass('test', 1)\n# instance.new_attr = 2 # This would raise an AttributeError\n\n**Explanation:** `__slots__` is a class variable that pre-declares the instance attributes. This has two main effects: 1) It significantly reduces the memory footprint of each instance because Python doesn't need to create a `__dict__` for each one. 2) It prevents the creation of any new attributes not listed in `__slots__`. It is an optimization best used when you are creating thousands or millions of instances of a class.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Explain the difference between `__str__` and `__repr__`.",
+        "input": "",
+        "output": "class Point:\n    def __init__(self, x, y):\n        self.x, self.y = x, y\n\n    def __str__(self):\n        return f'Point at ({self.x}, {self.y})'\n\n    def __repr__(self):\n        return f'Point({self.x}, {self.y})'\n\np = Point(1, 2)\nprint(str(p)) # User-friendly output\nprint(repr(p)) # Unambiguous, developer-focused output\n\n**Explanation:**\n- `__str__`: Called by `str()` and `print()`. Should return an informal, readable string representation of the object for the end-user.\n- `__repr__`: Called by `repr()`. Should return an unambiguous, official string representation of the object that, ideally, could be used to recreate the object (e.g., `eval(repr(obj)) == obj`). If `__str__` is not defined, `__repr__` is used as a fallback.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How to use `map`, `filter`, and `reduce` in Python.",
+        "input": "",
+        "output": "from functools import reduce\n\nnumbers = [1, 2, 3, 4, 5]\n\n# Map: Apply a function to every item of an iterable.\n_map = list(map(lambda x: x * 2, numbers))\n# Output: [2, 4, 6, 8, 10]\n\n# Filter: Construct an iterator from elements of an iterable for which a function returns true.\n_filter = list(filter(lambda x: x % 2 == 0, numbers))\n# Output: [2, 4]\n\n# Reduce: Apply a function of two arguments cumulatively to the items of a sequence.\n_reduce = reduce(lambda x, y: x + y, numbers)\n# Output: 15\n\n**Explanation:** These are classic functional programming tools. `map` and `filter` are often replaced by more readable list comprehensions (`[x*2 for x in numbers]`), but `reduce` (from `functools`) is useful for cumulative operations.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Implement a context manager using the `@contextmanager` decorator.",
+        "input": "",
+        "output": "from contextlib import contextmanager\n\n@contextmanager\ndef file_manager(filename, mode):\n    print('Setting up')\n    f = open(filename, mode)\n    try:\n        yield f\n    finally:\n        print('Tearing down')\n        f.close()\n\n# Usage:\nwith file_manager('test.txt', 'w') as f:\n    f.write('Hello, contextlib!')\n\n**Explanation:** The `contextlib.contextmanager` decorator provides a more concise way to create a context manager from a generator. The code before the `yield` statement is the setup (`__enter__`) logic. The `yield` passes control to the `with` block. The code in the `finally` block is the teardown (`__exit__`) logic, ensuring cleanup happens reliably.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Write a class that demonstrates inheritance.",
+        "input": "",
+        "output": "class Animal:\n    def __init__(self, name):\n        self.name = name\n\n    def speak(self):\n        raise NotImplementedError('Subclass must implement abstract method')\n\nclass Dog(Animal):\n    def speak(self):\n        return f'{self.name} says Woof!'\n\nclass Cat(Animal):\n    def speak(self):\n        return f'{self.name} says Meow!'\n\nd = Dog('Fido')\nc = Cat('Whiskers')\nprint(d.speak())\nprint(c.speak())\n\n**Explanation:** `Dog` and `Cat` are subclasses that inherit from the `Animal` superclass. They gain the `__init__` method from `Animal` but provide their own specific implementations of the `speak` method (polymorphism). The `speak` method in `Animal` raises a `NotImplementedError` to indicate that it must be overridden by subclasses.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What is method resolution order (MRO) in Python?",
+        "input": "",
+        "output": "class A: pass\nclass B(A): pass\nclass C(A): pass\nclass D(B, C): pass\n\nprint(D.mro())\n# Output: [<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>]\n\n**Explanation:** MRO defines the order in which base classes are searched when looking for a method. Python uses the C3 linearization algorithm, which ensures a consistent and predictable order, even in complex multiple inheritance scenarios (the 'diamond problem'). The MRO starts with the class itself, then its parent classes from left to right, and their parent classes, ensuring each class appears only once.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Implement Bubble Sort and state its time complexity.",
+        "input": "",
+        "output": "def bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\n\n# Example:\nprint(bubble_sort([64, 34, 25, 12, 22, 11, 90]))\n\n**Explanation:** Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.\n**Time Complexity:** O(n²) in the average and worst cases, making it highly inefficient for large datasets.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Explain `async` and `await` in Python.",
+        "input": "",
+        "output": "import asyncio\n\nasync def say_after(delay, what):\n    await asyncio.sleep(delay)\n    print(what)\n\nasync def main():\n    print('Started')\n    await say_after(1, 'hello')\n    await say_after(2, 'world')\n    print('Finished')\n\n# asyncio.run(main())\n\n**Explanation:** The `async` and `await` keywords are used for asynchronous programming. An `async def` function defines a coroutine. The `await` keyword passes control back to the event loop, pausing the execution of the coroutine and allowing the event loop to run other tasks. `asyncio.sleep` is a non-blocking version of `time.sleep`. This allows for concurrent execution of I/O-bound tasks without using threads.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What is a named tuple?",
+        "input": "",
+        "output": "from collections import namedtuple\n\nPoint = namedtuple('Point', ['x', 'y'])\np = Point(10, 20)\n\nprint(p.x, p.y) # Access by name\nprint(p[0], p[1]) # Access by index\n\n**Explanation:** `collections.namedtuple` is a factory function for creating tuple subclasses with named fields. It improves code readability by allowing you to access elements by name instead of just by index, while retaining the immutability and memory efficiency of a regular tuple.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How do you use `itertools.groupby()`?",
+        "input": "",
+        "output": "from itertools import groupby\n\ndata = sorted(['apple', 'apricot', 'banana', 'avocado', 'blueberry'])\n\nfor key, group in groupby(data, key=lambda x: x[0]):\n    print(key, list(group))\n\n**Explanation:** `itertools.groupby` makes an iterator that returns consecutive keys and groups from an iterable. The `key` function computes a key for each element. **Important:** The input iterable must be sorted on the same key function for `groupby` to work as expected, as it only groups consecutive items with the same key.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Implement a Singleton design pattern using a decorator.",
+        "input": "",
+        "output": "def singleton(cls):\n    instances = {}\n    def get_instance(*args, **kwargs):\n        if cls not in instances:\n            instances[cls] = cls(*args, **kwargs)\n        return instances[cls]\n    return get_instance\n\n@singleton\nclass Database:\n    pass\n\ndb1 = Database()\ndb2 = Database()\nprint(db1 is db2) # Output: True\n\n**Explanation:** The Singleton pattern ensures that a class has only one instance and provides a global point of access to it. This decorator wraps a class and stores its single instance in a dictionary. Subsequent calls to create an object of that class will return the existing instance.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How does Python's `for` loop work under the hood?",
+        "input": "",
+        "output": "**Explanation:** A `for` loop in Python works with the iterator protocol. When you write `for item in iterable:`, Python first calls `iter(iterable)` to get an iterator object. Then, in each iteration, it calls `next()` on this iterator object to get the next item, which is assigned to `item`. When the iterator is exhausted, it raises a `StopIteration` exception, which the `for` loop catches to terminate.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How do you create a class with private attributes?",
+        "input": "",
+        "output": "class MyClass:\n    def __init__(self, public, private):\n        self.public = public\n        self.__private = private # Name mangling\n\n    def get_private(self):\n        return self.__private\n\nobj = MyClass('pub', 'priv')\nprint(obj.public)\n# print(obj.__private) # AttributeError\nprint(obj._MyClass__private) # Accessible via mangled name\n\n**Explanation:** Python does not have true private attributes. By convention, a single underscore prefix (`_`) signals an attribute is for internal use. A double underscore prefix (`__`) triggers **name mangling**, where the attribute name is changed to `_ClassName__attributeName`. This makes it harder to access accidentally from outside the class but doesn't make it truly private.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What are descriptors in Python?",
+        "input": "",
+        "output": "class Ten:\n    def __get__(self, obj, objtype=None):\n        return 10\n\nclass MyClass:\n    x = Ten()\n\nprint(MyClass.x) # Output: 10\n\n**Explanation:** A descriptor is an object attribute with 'binding behavior', whose attribute access has been overridden by methods in the descriptor protocol: `__get__`, `__set__`, and `__delete__`. These methods are triggered upon accessing the attribute. Descriptors are the underlying mechanism for properties, methods, static methods, class methods, and `super()`.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Demonstrate polymorphism in Python.",
+        "input": "",
+        "output": "class Circle:\n    def draw(self): return 'Drawing a circle'\n\nclass Square:\n    def draw(self): return 'Drawing a square'\n\ndef render_shape(shape):\n    print(shape.draw())\n\nrender_shape(Circle())\nrender_shape(Square())\n\n**Explanation:** Polymorphism (meaning 'many forms') allows objects of different classes to respond to the same method call (`draw()` in this case). The `render_shape` function can work with any object that has a `draw` method, regardless of its specific class. This is a key principle of 'duck typing' in Python: 'If it walks like a duck and it quacks like a duck, then it must be a duck.'",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How to use `collections.Counter`?",
+        "input": "",
+        "output": "from collections import Counter\n\nmy_list = ['a', 'b', 'c', 'a', 'b', 'a']\ncounts = Counter(my_list)\n\nprint(counts) # Output: Counter({'a': 3, 'b': 2, 'c': 1})\nprint(counts['a']) # Output: 3\nprint(counts.most_common(1)) # Output: [('a', 3)]\n\n**Explanation:** `Counter` is a dictionary subclass for counting hashable objects. It's a highly efficient way to count the occurrences of items in an iterable. It provides useful methods like `most_common()` to find the most frequent elements.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Implement Quick Sort and state its average time complexity.",
+        "input": "",
+        "output": "def quick_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    else:\n        pivot = arr[len(arr) // 2]\n        left = [x for x in arr if x < pivot]\n        middle = [x for x in arr if x == pivot]\n        right = [x for x in arr if x > pivot]\n        return quick_sort(left) + middle + quick_sort(right)\n\n# Example:\nprint(quick_sort([3, 6, 8, 10, 1, 2, 1]))\n\n**Explanation:** Quick Sort is a divide-and-conquer sorting algorithm. It works by selecting a 'pivot' element and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.\n**Time Complexity:** O(n log n) on average, but can degrade to O(n²) in the worst case (e.g., on an already sorted list with a poor pivot choice).",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What is a closure in Python?",
+        "input": "",
+        "output": "def outer_function(text):\n    def inner_function():\n        print(text) # `text` is a free variable\n    return inner_function\n\nmy_func = outer_function('Hello')\nmy_func() # Output: Hello\n\n**Explanation:** A closure is an inner function that remembers and has access to variables from the local scope in which it was created, even after the outer function has finished executing. The `inner_function` 'closes over' the `text` variable. Closures are essential for implementing decorators and other advanced patterns.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How do you use `multiprocessing` for parallel execution?",
+        "input": "",
+        "output": "import multiprocessing\nimport time\n\ndef worker(num):\n    print(f'Worker {num} starting')\n    time.sleep(1)\n    print(f'Worker {num} finishing')\n\nif __name__ == '__main__':\n    processes = []\n    for i in range(5):\n        p = multiprocessing.Process(target=worker, args=(i,))\n        processes.append(p)\n        p.start()\n    for p in processes:\n        p.join()\n\n**Explanation:** The `multiprocessing` module bypasses the GIL by creating separate processes, each with its own Python interpreter and memory space. `Process(target=...` creates a new process. `p.start()` begins its execution. `p.join()` makes the main process wait for the child process to complete. The `if __name__ == '__main__':` guard is essential to prevent issues on some platforms.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How does `super()` work in Python?",
+        "input": "",
+        "output": "class Parent:\n    def __init__(self):\n        print('Parent init')\n\nclass Child(Parent):\n    def __init__(self):\n        super().__init__()\n        print('Child init')\n\nChild()\n\n**Explanation:** `super()` returns a proxy object that delegates method calls to a parent or sibling class in the MRO (Method Resolution Order). It allows you to call methods from a superclass in a subclass, which is crucial for extending functionality in inherited methods (like `__init__`) without completely overwriting them.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What are static and class methods?",
+        "input": "",
+        "output": "class MyClass:\n    class_variable = 10\n\n    def __init__(self, instance_variable):\n        self.instance_variable = instance_variable\n\n    @classmethod\n    def from_string(cls, string_val):\n        # `cls` is the class itself (MyClass)\n        return cls(int(string_val))\n\n    @staticmethod\n    def is_adult(age):\n        # No access to `cls` or `self`\n        return age >= 18\n\n**Explanation:**\n- **Class Method (`@classmethod`):** Receives the class itself as the first argument, conventionally named `cls`. It can access or modify class-level state. Often used for factory methods that create instances of the class in alternative ways.\n- **Static Method (`@staticmethod`):** Doesn't receive any implicit first argument. It is essentially a regular function namespaced within the class. It cannot access class or instance state.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Explain list slicing with a step.",
+        "input": "",
+        "output": "numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n\n# Get every second element\nevens = numbers[0:10:2] # [0, 2, 4, 6, 8]\n\n# Reverse the list\nreversed_list = numbers[::-1]\n\n**Explanation:** The full slice syntax is `[start:stop:step]`. The `step` value determines the increment between indices. A positive step moves from left to right, and a negative step moves from right to left. `step=2` takes every second element, while `step=-1` reverses the iterable.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How do you handle cyclic imports in Python?",
+        "input": "",
+        "output": "**Explanation:** A cyclic import occurs when two or more modules depend on each other (e.g., module A imports B, and B imports A). This can lead to `ImportError` or `AttributeError`. Solutions include:\n1.  **Refactoring:** The best solution is often to redesign the code to break the dependency, perhaps by moving shared functionality to a third module.\n2.  **Local Imports:** Import a module inside a function or method where it's needed, rather than at the top level. This delays the import until runtime, which can resolve the cycle.\n3.  **Using `importlib`:** For complex cases, `importlib.import_module()` can be used for dynamic imports.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What are Python's data classes?",
+        "input": "",
+        "output": "from dataclasses import dataclass\n\n@dataclass\nclass Point:\n    x: float\n    y: float\n\np = Point(1.5, 2.5)\nprint(p) # Output: Point(x=1.5, y=2.5)\n\n**Explanation:** The `@dataclass` decorator (available in Python 3.7+) automatically generates special methods like `__init__`, `__repr__`, `__eq__`, and others based on the class's type-annotated attributes. It significantly reduces boilerplate code for classes that primarily store data.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Implement a thread-safe counter.",
+        "input": "",
+        "output": "import threading\n\nclass ThreadSafeCounter:\n    def __init__(self):\n        self.value = 0\n        self._lock = threading.Lock()\n\n    def increment(self):\n        with self._lock:\n            self.value += 1\n\n**Explanation:** In a multithreaded environment, a simple `self.value += 1` is not atomic and can lead to a race condition. A `threading.Lock` is used to ensure that only one thread can modify the `value` at a time. The `with self._lock:` syntax acquires the lock before entering the block and guarantees its release upon exit, preventing deadlocks.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What is a partial function?",
+        "input": "",
+        "output": "from functools import partial\n\ndef power(base, exponent):\n    return base ** exponent\n\n# Create a new function that always squares a number\nsquare = partial(power, exponent=2)\n\nprint(square(5)) # Output: 25\n\n**Explanation:** `functools.partial` allows you to 'freeze' some portion of a function's arguments, creating a new, simpler function. It's a way to create specialized versions of a more general function without needing to define a new one with `def` or `lambda`.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How to create a custom exception?",
+        "input": "",
+        "output": "class CustomError(Exception):\n    \"\"\"A custom exception for my application.\"\"\"\n    pass\n\ndef my_function(value):\n    if value < 0:\n        raise CustomError('Value cannot be negative.')\n\ntry:\n    my_function(-1)\nexcept CustomError as e:\n    print(f'Caught a custom error: {e}')\n\n**Explanation:** You can create custom exceptions by defining a new class that inherits from Python's base `Exception` class (or a more specific exception). This makes error handling more specific and your code more readable, as you can `try...except` for your particular error type.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What are generator expressions?",
+        "input": "",
+        "output": "# List comprehension (in memory)\nlist_comp = [x*x for x in range(10)]\n\n# Generator expression (lazy evaluation)\ngen_exp = (x*x for x in range(10))\n\n# for i in gen_exp:\n#    print(i)\n\n**Explanation:** A generator expression has a syntax very similar to a list comprehension but uses parentheses `()` instead of square brackets `[]`. It creates a generator object that produces values on-the-fly (lazy evaluation) rather than building the entire list in memory at once. This is highly memory-efficient for large sequences.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What is operator overloading in Python?",
+        "input": "",
+        "output": "class Vector:\n    def __init__(self, x, y):\n        self.x, self.y = x, y\n\n    def __add__(self, other):\n        return Vector(self.x + other.x, self.y + other.y)\n\n    def __repr__(self):\n        return f'Vector({self.x}, {self.y})'\n\nv1 = Vector(2, 4)\nv2 = Vector(1, 2)\nprint(v1 + v2) # Output: Vector(3, 6)\n\n**Explanation:** Operator overloading allows you to redefine the behavior of built-in operators (like `+`, `-`, `*`) for your custom classes. You do this by implementing special methods like `__add__`, `__sub__`, etc. In this example, the `+` operator is overloaded to perform vector addition.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How to profile a Python script for performance bottlenecks?",
+        "input": "",
+        "output": "**Explanation:** Profiling is the process of measuring the performance of different parts of your code to identify bottlenecks. The standard library provides two main tools:\n1.  **`cProfile`:** The main profiler. It provides a detailed statistical analysis of how much time is spent in each function. You can run it from the command line: `python -m cProfile your_script.py`.\n2.  **`timeit` module:** Used for timing small snippets of code accurately. It runs the code multiple times to get a reliable average execution time, which is useful for comparing the performance of two different approaches to the same problem.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What does the `yield from` expression do?",
+        "input": "",
+        "output": "def generator1():\n    yield 1\n    yield 2\n\ndef main_generator():\n    yield 'A'\n    yield from generator1()\n    yield 'B'\n\nprint(list(main_generator())) # Output: ['A', 1, 2, 'B']\n\n**Explanation:** `yield from` provides a way to delegate part of a generator's operations to another generator. It creates a transparent two-way channel, passing values and exceptions between the caller and the sub-generator. It's a cleaner way to chain generators than writing an explicit `for` loop.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Explain the difference between an iterator and an iterable.",
+        "input": "",
+        "output": "**Explanation:**\n- **Iterable:** An object capable of returning its members one at a time. It must define an `__iter__` method that returns an iterator. Examples include lists, tuples, strings, and dictionaries.\n- **Iterator:** An object representing a stream of data. It must define a `__next__` method, which returns the next item from the stream. When the stream is exhausted, `__next__` must raise `StopIteration`. Every iterator is also an iterable (its `__iter__` method returns itself).",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What is the `collections.defaultdict`?",
+        "input": "",
+        "output": "from collections import defaultdict\n\ns = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]\nd = defaultdict(list)\nfor k, v in s:\n    d[k].append(v)\n\nprint(d) # defaultdict(<class 'list'>, {'yellow': [1, 3], 'blue': [2, 4], 'red': [1]})\n\n**Explanation:** `defaultdict` is a subclass of `dict` that provides a default value for a nonexistent key. When you first try to access a key that isn't present, it automatically creates the entry using a default factory function (e.g., `list`, `int`). This simplifies code for grouping or counting items, as you don't need to manually check if the key already exists.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How do you define an abstract base class (ABC)?",
+        "input": "",
+        "output": "from abc import ABC, abstractmethod\n\nclass Shape(ABC):\n    @abstractmethod\n    def area(self):\n        pass\n\nclass Square(Shape):\n    def __init__(self, side):\n        self.side = side\n\n    def area(self):\n        return self.side ** 2\n\n# s = Shape() # TypeError: Can't instantiate abstract class\nsq = Square(5)\nprint(sq.area())\n\n**Explanation:** An Abstract Base Class (ABC) defines a common interface for a set of subclasses. You cannot create an instance of an ABC. Any subclass that inherits from the ABC must implement all of its abstract methods (those decorated with `@abstractmethod`), otherwise a `TypeError` will be raised. ABCs are used to enforce a specific structure on a class hierarchy.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "Write a regex to validate an email address.",
+        "input": "",
+        "output": "import re\n\n# A simplified regex for demonstration\nemail_regex = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$'\n\ndef is_valid_email(email):\n    return re.match(email_regex, email) is not None\n\nprint(is_valid_email('test@example.com')) # True\nprint(is_valid_email('invalid-email'))   # False\n\n**Explanation:** Regular expressions (regex) are a powerful tool for pattern matching in strings. This regex checks for: a username part, an `@` symbol, a domain name part, a `.` and a top-level domain. `re.match` attempts to match the pattern at the beginning of the string. Note that production-level email validation regex can be far more complex.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How to serialize a Python object using `pickle`?",
+        "input": "",
+        "output": "import pickle\n\nmy_data = {'name': 'Alice', 'numbers': [1, 2, 3]}\n\n# Serialize (dump) the object to a file\nwith open('data.pkl', 'wb') as f:\n    pickle.dump(my_data, f)\n\n# Deserialize (load) the object from the file\nwith open('data.pkl', 'rb') as f:\n    loaded_data = pickle.load(f)\n\nprint(loaded_data)\n\n**Explanation:** Serialization (or pickling) is the process of converting a Python object into a byte stream. The `pickle` module allows you to save complex objects to a file or send them over a network. The byte stream can then be deserialized (unpickled) back into a Python object. You must open files in binary mode (`'wb'` or `'rb'`).",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What is dependency injection?",
+        "input": "",
+        "output": "class Database:\n    def get_data(self): return 'Data from DB'\n\nclass APIService:\n    def get_data(self): return 'Data from API'\n\nclass DataProcessor:\n    # Dependency is injected via the constructor\n    def __init__(self, data_source):\n        self.data_source = data_source\n\n    def process(self):\n        return self.data_source.get_data()\n\n# Injecting different dependencies\nprocessor1 = DataProcessor(Database())\nprocessor2 = DataProcessor(APIService())\n\n**Explanation:** Dependency Injection is a design pattern where an object's dependencies (the other objects it needs to work) are 'injected' from an external source rather than being created internally. This promotes loose coupling, making the code more modular, testable, and maintainable. Here, `DataProcessor` is not tied to a specific data source; any object with a `get_data` method can be injected.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "What is monkey patching?",
+        "input": "",
+        "output": "import some_module\n\ndef new_function():\n    return 'Patched!'\n\n# Replace the original function at runtime\nsome_module.original_function = new_function\n\n**Explanation:** Monkey patching is the dynamic modification of a class or module at runtime. It allows you to change the behavior of third-party code without altering its source. While it can be useful for bug fixes or testing (e.g., mocking), it is generally considered a risky practice in production code as it can lead to hard-to-debug issues and tightly coupled code.",
+        "skill": "Advanced"
+    },
+    {
+        "instruction": "How to use `weakref` to avoid circular references?",
+        "input": "",
+        "output": "import weakref\n\nclass Parent:\n    def __init__(self, child):\n        # Use a weak reference to the child\n        self.child = weakref.ref(child)\n\nclass Child:\n    def __init__(self, parent):\n        self.parent = parent\n\n# Without weakref, p and c would create a circular reference\n# and might not be garbage collected.\np = Parent(None)\nc = Child(p)\np.child = weakref.ref(c)\n\n**Explanation:** A circular reference occurs when two or more objects refer to each other, preventing them from being garbage collected. `weakref.ref()` creates a weak reference, which does not increase the object's reference count. This allows the object to be garbage collected when only weak references point to it, thus breaking the cycle.",
+        "skill": "Advanced"
+    }
+]
